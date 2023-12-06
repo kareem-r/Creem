@@ -1,0 +1,26 @@
+:root{
+    --light-color:#fff;
+    --green-color:#59af5c;
+    --dark-color:#000;
+}
+body{
+
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    scroll-behavior: smooth;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0 !important;
+}
+h1 , p , a{
+    font-family: 'Cairo', sans-serif;
+}
+ul{
+    padding-left: 0;
+}

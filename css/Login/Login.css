@@ -1,0 +1,173 @@
+.login-right{
+
+    width: 50%;
+    float: right;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 2px 0 10px rgb(0 0 0 / 30%);
+    background: linear-gradient(180deg, #102b1d, #57ed94);
+}
+.login-right .container{
+
+    display: flex;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 550px;
+    min-width: 53%;
+    flex-direction: column;
+    margin: auto;
+    overflow: hidden;
+    text-align: right;
+    direction: rtl;
+    color: #ffffff;}
+    .login-right .container .images{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.login-right .container .images .logo img{
+    max-width: 200px;}
+.login-right .container h1{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 53px;}
+.login-right .container p{
+    font-size: 18px;
+    margin: 20px 0 50px;
+    letter-spacing: 0.64px;
+    max-width: 400px;}
+.login-right .container .img{
+    margin-top: auto;
+    border: 16px solid rgb(255 255 255 / 64%);
+    border-radius: 40px 40px 0 0;
+    border-bottom: 0;}
+.login-right .container .img img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    aspect-ratio: 1;
+    object-fit: cover;}
+.login-left{
+    background-color: var(--light-color) !important;}
+.login-left .container{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100% - 60px);}
+.login-left .container form{
+    text-align: right;
+    direction: rtl;
+    width: 100%;
+    max-width: 550px;
+    min-width: 50%;
+    margin:45px auto auto auto;
+}
+.login-left .container form .title-main{
+    font-size: 44px;
+    margin: 0 0 17px;
+    font-weight: 600;
+    
+
+color:#0b7c6f;}
+.login-left .container form .desc{
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 0.57px;}
+.login-left .container form .input-name ,
+.login-left .container form .input-password{
+    position: relative;
+    margin: 20px 0;}
+.login-left .container form label{
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    opacity: 0.8;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-top: 7px;}
+.login-left .container form .input-name input 
+,.login-left .container form .input-password input{
+    font-family: inherit;
+    text-align: right;
+    direction: rtl;
+    height: 52px;
+    background-color: transparent;
+    box-shadow: rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 12px;
+    transition: background-color 240ms, box-shadow 240ms;
+    color: #393d4a;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 13px;
+    width: 100%;
+    border: 0;}
+.login-left .container form .forgot-password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -7px 0 50px;}
+.login-left .container form .forgot-password .terms label{
+    padding-left: 20px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 16px;
+    opacity: 0.9;
+    max-width: 100%;}
+.login-left .container form .forgot-password a {
+    text-decoration: none;
+    color: #0b7c6f;}
+.login-left .container form .buttons .login-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.login-left .container form .buttons .login-button button{
+    width: 100%;
+    line-height: 60px;
+    border-radius: 12px;
+    font-size: 20px;
+    background: #0b7c6f;
+    color: #ffffff !important;}
+.login-left .container form .buttons .social-button{
+    text-align: center;
+    margin: 50px 0 30px;}
+.login-left .container form .buttons .social-button p{
+    margin-bottom: 5px;
+    opacity: 0.6;}
+.login-left .container form .buttons .signup-button{
+    text-align: center;
+    margin: 15px 0 -10px;
+    font-size: 15px;}
+.login-left .container form .buttons .signup-button p .main{
+    color:#0b7c6f !important;
+    text-decoration: none;}
+.login-right  .footer{
+    text-align: center;}
+.login-left .footer .container{    
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+.login-left  .footer .container a,
+.login-left  .footer .container p{
+    color: #666;
+    text-decoration: none;}
+
+@media(max-width:760px){
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .login-left .footer .container {
+        font-size: 13px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .login-right{
+        width: 100%;
+    }
+}
